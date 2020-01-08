@@ -26,3 +26,8 @@ const without = function(arr1,arr2) {
 }
 
 assertArraysEqual(without(["1","2","3"],["1"] ),["2","3"] )
+
+//if(!(arr2.includes{arr1[1]})) === IF THIS IS NOT TRUE
+// logic -> if (arr2.includes(arr1[i])) will return false in this code.
+//If (not included) then returnArray.push(arr1[i])
+// --> this quite effectively adds everything that is not present in array 2

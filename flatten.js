@@ -32,3 +32,11 @@ const flatten = function (longArray) {
 }
 
 console.log(flatten([1,2,[3,4],5,[6]]));
+
+//logic
+// long array = the full array including the nested array
+
+//for/if
+// --> index of longArray will continue to loop until it finds a nested array
+// -----> if(true) then -> for loop to access the values inside
+// ---------> Once looping inside, newArray.push to get the values out into a new array
