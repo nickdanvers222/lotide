@@ -1,20 +1,23 @@
-const students = [
-    { id: 1, name: "bruce",    age: 40 },
-    { id: 2, name: "zoidberg", age: 22 },
-    { id: 3, name: "alex",     age: 22 },
-    { id: 4, name: "alex",     age: 30 }
-  ];
-  console.log(students.sort(function(a, b) {
-      if(a.name === b.name) {
-          return b.age - a.age;
-      } else {
-    var nameA = a.name.toUpperCase(); // ignore upper and lowercase
-    var nameB = b.name.toUpperCase(); // ignore upper and lowercase
-    if (nameA < nameB) {
-      return -1;
+
+    function makeLoadedDie() {
+      const list = [5, 4, 6, 1, 6, 4, 2, 3, 3, 5];
+      /* your code here */
+    let i = -1;
+    return function() {
+        i++;
+        return list[i]
+        /* your code here */
+       // return number;
+
+      }
     }
-    if (nameA > nameB) {
-      return 1;
-    }
-  }
-}));
+
+    const rollLoadedDie = makeLoadedDie();
+
+    console.log(rollLoadedDie());  // 5
+    console.log(rollLoadedDie());  // 4
+    console.log(rollLoadedDie());  // 6
+
+
+
+  
