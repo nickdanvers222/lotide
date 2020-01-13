@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@nicholasdanvers/lotide",
+  "version": "1.0.1",
+  "description": "a lotide copy for study purposes",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -19,7 +19,7 @@
     "type": "git",
     "url": "git+https://github.com/Ravenor222/lotide.git"
   },
-  "author": "",
+  "author": "Nicholas Danvers",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Ravenor222/lotide/issues"

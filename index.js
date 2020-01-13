@@ -1,8 +1,9 @@
 // index.js
-const head   = require('./head');
-const tail   = require('./tail');
+const head = require('./head');
+const tail = require('./tail');
 const middle = require('./middle');
 const map = require('./map');
+const eqArrays = require('./eqArrays');
 const countLetters = require('./countLetters');
 const countOnly = require('./countOnly');
 const findKey = require('./findKey');
@@ -15,18 +16,18 @@ const pythagorean = require('./pythagorean');
 
 
 module.exports = {
-  head:   head,
-  tail:   tail,
-  middle: middle,
-  eqArrays: eqArrays,
-  map: map,
-  countLetters: countLetters,
-  countOnly: countOnly,
-  findKey: findKey,
-  findKeyByValue: findKeyByValue,
-  flatten: flatten,
-  forSorting: forSorting,
-  letterPositions: letterPositions,
-  pythagorean: pythagorean,
+  head,
+  tail,
+  middle,
+  eqArrays,
+  countLetters,
+  countOnly,
+  map,
+  findKey,
+  findKeyByValue,
+  flatten,
+  forSorting,
+  letterPositions,
+  pythagorean
 
 };

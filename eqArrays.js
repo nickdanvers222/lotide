@@ -1,4 +1,4 @@
-const assertEqual = require("./assertEqual");
+const _ = require('./index');
 
 const eqArrays = function (firstActual, secondActual){
 for (let i = 0; i < firstActual.length; i++) {
