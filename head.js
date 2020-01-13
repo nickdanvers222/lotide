@@ -9,3 +9,6 @@ const assertEqual = require('./assertEqual');
 //assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
 
 console.log(head([5,3,2]))
+
+
+module.exports = head;
