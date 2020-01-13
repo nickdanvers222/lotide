@@ -2,8 +2,6 @@ const middle = require("../middle");
 const assert = require('chai').assert;
 
 
-//assertArraysEqual(middle([1,2,3,4,5,6]), [3,4]);
-
 describe("middle", () => {
     it("should be 3,4 given [1,2,3,4,5,6]", () => {
         assert.deepEqual(middle([1,2,3,4,5,6]), [3,4]);
