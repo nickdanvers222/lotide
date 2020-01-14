@@ -2,7 +2,7 @@ const _ = require('../index');
 const assert = require('chai').assert;
 
 describe("#countOnly : 2", () => {
-    let firstNames = _.countOnly([
+    let firstNames = [
         "Karl",
         "Salima",
         "Agouhanna",
@@ -11,14 +11,19 @@ describe("#countOnly : 2", () => {
         "Jason",
         "Salima",
         "Fang",
-        "Joe"
-      ], { "Jason": true, "Karima": true, "Fang": true });
-
-
-    it("Fang should be two if given twice", () => {
-        assert.equal(firstNames["Jason"], 1)
+        "Fang"
+      ];
+const results = _.countOnly(firstNames, {"Fang": true, "Salima": true});
+    it("Fang should have the value of 2 if its in the object twice", () => {
+        assert.equal(results["Fang"], 3);
+    });
+    it("Salima should have a value of two if key['salima']: 2", () => {
+        assert.equal(results["Salima"], 2);
     })
-})
+
+    
+  });
+
 
 
 

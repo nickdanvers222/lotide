@@ -34,4 +34,4 @@ module.exports = countOnly;
 
 
                     //"How to use"//
-//console.log(countOnly(firstNames,({"Karl": true, "Fang": true, "Salima": true})));//
+console.log(countOnly(firstNames,({"Karl": true, "Fang": true, "Salima": true})));//
