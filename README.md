@@ -30,8 +30,8 @@ The following functions are currently implemented:
 * tail = give the tail of the array (index 1- -1)
 * middle =  Will return the middle elements of an array
 * eqArrays = essentially chai's deepEqual
-* countLetters = Count's how many letters there are
-* countOnly = 
+* countLetters = Counts how many letters there are
+* countOnly = Counts the amount of times a name appears in the object given the values of true(See inside for example)
 * findKey = This will find the object key
 * findKeyByValue = finds the key of the value provided
 * flatten = reduces an array with nested arrays into a single array
